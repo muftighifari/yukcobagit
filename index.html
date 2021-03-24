@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas Proyek H64</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/font-awesome.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="nav-box fixed" id="navbar">
+      <!-- navbar untuk desktop -->
+      <div class="header-box">
+        <a class="subjudul" href="#">Mufti Corp</a>
+      </div>
+      <nav>
+        <ul class="nav-item">
+          <li><a class="subjudul" href="#content1">OUR PROFILE</a></li>
+          <!-- <li><a class="subjudul" href="#content2"></a></li> -->
+        </ul>
+      </nav>
+      <a href="#"><button id="menu">menu</button></a>
+      <!-- navbar untuk hp -->
+      <nav id="menu-hp" class="overlay fixed">
+        <a class="close absolute">&times;</a>
+        <div class="overlay-content">
+          <a href="#content1" class="navClick">TEAM PROFILE</a>
+          <a href="#content2" class="navClick">MATERI</a>
+        </div>
+      </nav>
+    </header>
+    <!-- section tampilan selamat datang -->
+    <section>
+      <div id="begin"></div>
+      <div class="container-banner">
+        <div class="text-banner">
+          <h1 class="one-text">Welcome</h1>
+          <h1 class="two-text">To</h1>
+          <h1 class="three-text">Mufti Corp</h1>
+        </div>
+        <div class="image-banner">
+          <img src="assets/img/image2.png" />
+          <hr class="banner-hr" />
+          <div class="container-team">
+            <div class="team-banner">
+              <h3>T E A M</h3>
+            </div>
+            <figure class="team-container last">
+              <img src="assets/img/avatar-female.png" />
+              <figcaption class="caption">Raisa Alda Hairiah</figcaption>
+            </figure>
+            <figure class="team-container">
+              <img src="assets/img/avatar-female.png" />
+              <figcaption class="caption">Bindiya Nurzaman</figcaption>
+            </figure>
+            <figure class="team-container">
+              <img src="assets/img/linkedin_profile.jpeg" />
+              <figcaption class="caption">Mufti Ghifari</figcaption>
+            </figure>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <div class="clear"></div>
+        <span class="fa fa-angle-double-down"></span>
+      </div>
+    </section>
+    <!-- main kontent -->
+    <main>
+      <div class="container one">
+        <div class="timeline">
+          <div class="container header" id="content1">
+            <h2 class="header-profile">TEAM PROFILE</h2>
+          </div>
+          <div class="container-timeline left" data-aos="fade-left">
+            <div class="content-timeline center">
+              <div class="image-profile">
+                <img src="assets/img/linkedin_profile.jpeg" />
+              </div>
+              <div class="support-title">
+                <h3>CEO</h3>
+              </div>
+              <div class="name-title">
+                <h3>Muhammad Mufti Al Ghifari</h3>
+              </div>
+              <div class="no-peserta">
+                <h4>Informatics Engineering</h4>
+              </div>
+              <div class="caption-title">
+                <p>
+                  Berikan yang terbaik<br />
+                  maka kamu akan mendapatkan<br />
+                  yang terbaik
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="container-timeline right" data-aos="fade-left">
+            <div class="content-timeline center">
+              <div class="image-profile">
+                <img src="assets/img/avatar-female.png" />
+              </div>
+              <div class="support-title">
+                <h3>CTO</h3>
+              </div>
+              <div class="name-title">
+                <h3>Raisa Alda Hairiah</h3>
+              </div>
+              <div class="no-peserta">
+                <h4>Architecture</h4>
+              </div>
+              <div class="caption-title">
+                <p>
+                  Yesterday, <br />
+                  I was smart and wanted to change the world. Today, <br />I'm
+                  wise so I'm changing myself<br /><br />
+                  - Rumi
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="container-timeline left" data-aos="fade-left">
+            <div class="content-timeline center">
+              <div class="image-profile">
+                <img src="assets/img/avatar-female.png" />
+              </div>
+              <div class="support-title">
+                <h3>COO</h3>
+              </div>
+              <div class="name-title">
+                <h3>Bindiya Nurzaman</h3>
+              </div>
+              <div class="no-peserta">
+                <h4>International Relations</h4>
+              </div>
+              <div class="caption-title">
+                <p>
+                  Hidup bukan tentang seberapa banyak<br />
+                  yang bisa kita dapatkan tapi bagaimana <br />
+                  kita menghargai apa yang kita miliki
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clear"></div>
+      <div class="container header t" id="content2">
+        <div class="center">
+          <h2 class="header-quention">APA SAJA YANG AKAN KAMU PELAJARI?</h2>
+        </div>
+      </div>
+      <div class="container two">
+        <div class="flexbox-container center">
+          <div class="card-flex-question">
+            <div class="card-logo relative">
+              <i
+                class="fa fa-html5 absolute"
+                data-aos="fade-left"
+                aria-hidden="true"
+              ></i>
+              <h1 class="text-logo absolute">HTML</h1>
+            </div>
+          </div>
+          <div class="card-flex-question">
+            <div class="card-content">
+              <p class="html-text">
+                HTML adalah Hypertext Markup Languange.<br />
+                <br />
+                HTML merupakan bahasa mark up yang mudah untuk dipahami oleh
+                pengguna.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flexbox-container center css">
+          <div class="card-flex-question">
+            <div class="card-content">
+              <p class="css-text">
+                CSS adalah bahasa Cascading Style Sheet dan biasanya digunakan
+                untuk mengatur tampilan elemen yang tertulis dalam bahasa
+                markup.<br />
+                <br />
+                CSS berfungsi untuk memisahkan konten dari tampilan visualnya di
+                situs.
+              </p>
+            </div>
+          </div>
+          <div class="card-flex-question">
+            <div class="card-logo relative">
+              <i
+                class="fa fa-css3 absolute"
+                aria-hidden="true"
+                data-aos="fade-left"
+              ></i>
+              <h1 class="text-logo absolute">CSS</h1>
+            </div>
+          </div>
+        </div>
+        <div class="flexbox-container center">
+          <div class="card-flex-question">
+            <div class="card-logo relative">
+              <i
+                class="fa fa-js absolute"
+                aria-hidden="true"
+                data-aos="fade-down"
+                >JS</i
+              >
+            </div>
+          </div>
+          <div class="card-flex-question">
+            <div class="card-content">
+              <p class="js-text">
+                JavaScript adalah bahasa pemprograman yang menjadikan website
+                lebih interaktif.<br />
+                <br />
+                Scriptnya dijalankan di browser user alih-alih server, dan
+                biasanya masuk ke library pihak ketiga untuk menyediakan
+                fungsionalitas tingkat lanjut tanpa mengharuskan developer
+                melakukan coding dari awal.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="contact">
+      <h2>Bantuan</h2>
+      <p class="info">Tunggu apalagi? Ayo hubungi kami</p>
+      <div class="contact-container">
+        <div class="contact-info">
+          <h3>Info Kontak</h3>
+          <ul class="fa-ul">
+            <li>
+              <span class="fa-li fa fa-home"></span>Kota Bogor, Jawa Barat
+            </li>
+            <li><span class="fa-li fa fa-phone"></span>+62 81399061809</li>
+            <li><span class="fa-li fa fa-envelope"></span>admin@mufti.id</li>
+            <li><span class="fa-li fa fa-facebook"></span>Mufti Corp</li>
+          </ul>
+        </div>
+
+        <div class="contact-form">
+          <h3>Tinggalkan Pesan</h3>
+          <p>Nama Lengkap</p>
+          <input type="text" />
+          <p>Email</p>
+          <input type="text" />
+          <p>Pesan</p>
+          <textarea cols="30" rows="10"></textarea>
+          <input
+            type="submit"
+            style="display: block"
+            value="Kirim"
+            class="btn-submit"
+          />
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <a href="#" class="title-footer">Mufti Corp</a>
+      <ul class="menu-footer">
+        <li><a href="#">Kebijakan Privasi</a></li>
+        <li><a href="#">Daftar Pertanyaan</a></li>
+        <li><a href="#">Karir</a></li>
+      </ul>
+    </footer>
+    <script src="assets/js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
